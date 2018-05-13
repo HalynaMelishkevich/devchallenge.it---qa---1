@@ -10,7 +10,7 @@ import org.junit.Test;
 public class DeletePetTest{
 
 	@Test
-	public void deletePetName(){
+	public void deletePetTest(){
 		Random randomId = new Random();
 		long id = randomId.nextLong();
 		Argument category = new Argument(1, "test1");
